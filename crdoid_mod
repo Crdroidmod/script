@@ -1,0 +1,19 @@
+cd /media/ccc/Added/crdroid/build/make
+git fetch https://github.com/Crdroidmod/android_build.git 14.0
+git cherry-pick 715a2271ebfda69e19bcc0d2966a20bbd00bea2f
+
+cd /media/ccc/Added/crdroid/vendor/lineage
+git fetch https://github.com/Crdroidmod/vendor_crdroid 14.0
+git cherry-pick c14b2844f647263b92dda5c89ebb4313870652af
+
+cd /media/ccc/Added/crdroid/packages/apps/LineageParts
+git fetch https://github.com/Crdroidmod/packages_apps_LineageParts 14.0
+git cherry-pick 25f5aa99df3953782e243dfd82e0e78972c45470
+
+cd /media/ccc/Added/crdroid/external/bash
+git fetch https://github.com/Crdroidmod/android_external_bash 14.0
+git cherry-pick 146e5e92dc4992826bb730279cdcb32e3a3664c0
+
+cd /media/ccc/Added/crdroid/lineage-sdk
+git fetch https://github.com/Crdroidmod/android_lineage-sdk 14.0
+git cherry-pick d2dadc21d882435b712a798f0541b49f941db283
